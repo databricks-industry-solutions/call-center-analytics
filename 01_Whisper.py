@@ -92,7 +92,7 @@ transcribed.cache()
 
 # COMMAND ----------
 
-transcribed.write.saveAsTable("transcriptions")
+transcribed.write.mode("overwrite").saveAsTable("transcriptions")
 
 # COMMAND ----------
 

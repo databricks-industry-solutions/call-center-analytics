@@ -6,7 +6,9 @@
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
 ___
-<john.doe@databricks.com>
+<bryan.smith@databricks.com>
+
+<paul.ogilvie@databricks.com>
 
 ___
 
@@ -19,7 +21,10 @@ ___
 
 | library                                | description             | license    | source                                              |
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
-| PyYAML                                 | Reading Yaml files      | MIT        | https://github.com/yaml/pyyaml                      |
+| FFmpeg                               |    Multimedia framework   | LGPL v2.1        | https://www.ffmpeg.org/legal.html                     |
+| OpenSLR | LibriSpeech ASR corpus | CC BY 4.0 | http://www.openslr.org/12/ | 
+| transformers | Huggingface transformer framework | Apache 2.0 | https://github.com/huggingface/transformers/blob/main/LICENSE | 
+| OpenAI Whisper model | Automatic speech recognition | MIT | https://github.com/openai/whisper/blob/main/LICENSE | 
 
 ## Getting started
 
