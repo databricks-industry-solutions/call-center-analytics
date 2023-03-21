@@ -75,7 +75,7 @@ job_json = {
               "new_cluster": {
                   "spark_version": "12.2.x-gpu-ml-scala2.12",
                   "num_workers": 2,
-                  "node_type_id": {"AWS": "g4dn.xlarge", "MSA": "Standard_NC4as_T4_v3", "GCP": "a2-highgpu-1g"}, 
+                  "node_type_id": {"AWS": "g4dn.xlarge", "MSA": "Standard_NC6s_v3", "GCP": "a2-highgpu-1g"}, 
                   "init_scripts": [
                       {
                           "dbfs": {
