@@ -9,6 +9,7 @@ config = {}
 
 # DBTITLE 1,Streaming checkpoint location
 config["checkpoint_path"] = "/tmp/delta/tutorials/librispeech"
+config["checkpoint_path_bergmann"] = "/tmp/delta/tutorials/bergmann"
 
 # COMMAND ----------
 

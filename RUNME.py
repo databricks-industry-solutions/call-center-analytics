@@ -51,12 +51,24 @@ job_json = {
             {
                 "job_cluster_key": "call_center_cluster_w_init",
                 "notebook_task": {
-                    "notebook_path": f"01_Whisper"
+                    "notebook_path": f"01_transcribe_german"
                 },
                 "task_key": "call_center_01",
                 "depends_on": [
                     {
                         "task_key": "call_center_00"
+                    }
+                ]
+            },
+            {
+                "job_cluster_key": "call_center_cluster_w_init",
+                "notebook_task": {
+                    "notebook_path": f"02_zero_shot"
+                },
+                "task_key": "call_center_02",
+                "depends_on": [
+                    {
+                        "task_key": "call_center_01"
                     }
                 ]
             }
